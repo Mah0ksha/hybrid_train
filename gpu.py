@@ -1,0 +1,1 @@
+full_run_rlwind_main.py --mode rl_train --use_sl_pretraining --sl_model_load_path "sl_models/sl_policy_pretrain.pth" --universe_path "universe.csv" --total_timesteps 10000 --ent_coef 0.05 --eval_freq 500 --log_dir_base "logs/rl_runs_with_sl_v3_tight_sltp/" --model_save_path_base "rl_models/ppo_sl_hybrid_v3_tight_sltp" --rm_stop_loss_pct 0.005 --rm_take_profit_pct 0.005
